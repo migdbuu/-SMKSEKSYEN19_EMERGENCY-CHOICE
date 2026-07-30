@@ -4,7 +4,7 @@ from tkinter import messagebox
 class HealthcareGame:
     def __init__(self, root):
         self.root = root
-        self.root.title("Smart Healthcare Decision Game")
+        self.root.title("Smart Healthcare Quiz")
         self.root.geometry("600x450")
         self.root.configure(bg="#f0f8ff")
         
@@ -80,7 +80,7 @@ class HealthcareGame:
         self.load_situation()
 
     def setup_ui(self):
-        self.title_label = tk.Label(self.root, text="=== SMART HEALTHCARE DECISION GAME ===", font=("Arial", 14, "bold"), bg="#f0f8ff", fg="#2c3e50")
+        self.title_label = tk.Label(self.root, text="=== SMART HEALTHCARE QUIZ ===", font=("Arial", 14, "bold"), bg="#f0f8ff", fg="#2c3e50")
         self.title_label.pack(pady=15)
         
         self.phase_label = tk.Label(self.root, text="FASA UTAMA", font=("Arial", 10, "bold"), bg="#2ecc71", fg="white", padx=10, pady=2)
