@@ -5,7 +5,7 @@ class HealthcareGame:
     def __init__(self, root):
         self.root = root
         self.root.title("Smart Healthcare Decision Game")
-        self.root.geometry("600.450")
+        self.root.geometry("600x450")
         self.root.configure(bg="#f0f8ff")
         
         self.score = 0
